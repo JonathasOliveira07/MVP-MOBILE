@@ -15,6 +15,8 @@ Por meio desse software, o NAF permitirá o agendamento de forma fácil pelos pr
 Além disso, o projeto tem potencial de escalabilidae. Por meio desse código, qualquer empresa que precise atender ao público poderá facilitar o seu trabalho, na medida em que os próprios clientes fariam o seu agendamento online de forma fácil e segura, efitando, assim, a necessidade de atarefar os secretários da empresa com esse trabalho. 
 
 ### ✔ Instruções para executar o MVP localmente:
+Primeiramente, baixe o repositório. Lembre-se de instalar o npm, com: npm install bootstrap 
+
 A primeira página do Código é a página inicial (home.html), em formato minimalista. Após clicar no botão iniciar, o usuário será direcionado para fazer o cadastro ou efetuar o login. Tanto pelo login como pelo cadastro o usuário será direcionado para o campo de marcação do dia e horário disponível. Com esse preencjimento e seu envio, o usuário receberá um número de protocolo e a confirmação de que o processo foi finalizado, tendo a opção de retornar ao site inicial da UniFeso.
 
 ### ✔ DAS LINGUAGENS:

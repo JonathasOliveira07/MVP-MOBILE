@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Agendamento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+  <header class="text-center mb-4">
+    <h1 class="h3 fw-bold">AGENDA FÁCIL DO NÚCLEO DE APOIO CONTÁBIL E FISCAL</h1>
+  </header>
+
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <div class="card shadow p-4">
+        <h2 class="h5 mb-3 text-center">Agende um dia e hora</h2>
+        <form>
+          <div class="mb-3">
+            <label for="cNome" class="form-label">Nome completo</label>
+            <input type="text" class="form-control" id="cNome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="cData" class="form-label">Data</label>
+            <input type="date" class="form-control" id="cData" required>
+          </div>
+          <div class="mb-3">
+            <label for="cHora" class="form-label">Horário</label>
+            <input type="time" class="form-control" id="cHora" required>
+          </div>
+          <div class="d-flex justify-content-between">
+            <a href="CONFIRMACAO.html" class="btn btn-success w-50 me-2">Enviar</a>
+            <button type="reset" class="btn btn-secondary w-50">Limpar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="text-center mt-5">
+  <p>&copy; 2025 - by Jonathas Oliveira.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

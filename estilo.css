@@ -1,0 +1,41 @@
+:root {
+  --bs-primary: #006B64;   /* cor principal */
+  --bs-secondary: #CCCCCC; /* cor secundária */
+  --bs-light: #F8F9FA;
+  --bs-dark: #212529;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--bs-primary) !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #CCCCCC !important;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: #004F4A;
+  border-color: #004F4A;
+}
+
+/* Cartões */
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card h2, .card h3, .card h5 {
+  color: var(--bs-primary);
+}
